@@ -10,7 +10,6 @@
 
 
 > using indexedDB for stdlib modules cache
-
 > ('palindrome:', 906609, 'digit:', 913, 'palindrome/digit:', 993.0, 'iterations:', 2136) Average run-time: 0.06740000247955322
 
 > ('palindrome:', 906609, 'digit:', 913, 'palindrome/digit:', 993.0, 'iterations:', 2136) Average run-time: 0.06000001430511474
