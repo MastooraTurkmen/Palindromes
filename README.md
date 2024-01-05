@@ -7,3 +7,8 @@
 
 ## Console log
 
+```
+> using indexedDB for stdlib modules cache
+
+
+```
