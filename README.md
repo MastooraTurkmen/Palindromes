@@ -25,9 +25,26 @@
 
 #### ***Index HTML***
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.6/brython.min.js"></script>
+    <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.6/brython_stdlib.js"></script>
+    <title>Plindromes</title>
+</head>
+<body onload="brython();">
+    <script type="text/python3" src="index.py"></script>
+</body>
+</html>
 
+```
 
-
+#### ***Index PY***
 
 ```py
 
