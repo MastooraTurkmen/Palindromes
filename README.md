@@ -56,9 +56,36 @@ def palindrome():
     print('Runtime:', time.time()-start_time)
     print('---------End Run--------') #110 seconds, 55 secs
     
+def palindrome_back():
+    start_time = time.time()
+    palindromes_list=[]
+    debug_list=[]
+    low_val =100
+    high_val = 999
+    iterations = 0
+    low_num2_val =100
+    
+    for num1 in range(high_val,low_val,-1):
+        if num1 < low_val:
+            break
+        for num2 in range(high_val,low_num2_val,-1):
+            iterations += 1
+            #print(num1,num2)
+            if is_palindrome(num1*num2):
+                palindromes_list.append(num1*num2)
+                low_val = max((num1*num2)/high_val,low_val)
+                low_num2_val = num2
+                debug_list.append([num1,num2,(num1*num2)/high_val,low_val])
+            if num1 == num2:
+                break
+    print('print of palindromes:',palindromes_list, num1, num2)
+    print('debug_list:', debug_list)
+    print('Iterations:' , iterations)
+    print('Largest palindrome:', max(palindromes_list))
+    print('Runtime:', time.time()-start_time)
+    print('---------End Run--------') #110 seconds, 55 secs
 
-
-
+    
 palindrome()
 palindrome_back()
 
