@@ -19,6 +19,24 @@
 
 ### Codes are used
 
-```
+```py
+
+import time
+
+def is_palindrome(val):
+    val = str(val)
+    if val == val[::-1]:
+        return(True)
+    else:
+        return(False)
+#def is_palindrome(val):
+ #   return str(val) == str(val)[::-1]
+ 
+
+    
+
+
+palindrome()
+palindrome_back()
 
 ```
