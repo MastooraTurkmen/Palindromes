@@ -35,7 +35,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.6/brython.min.js"></script>
     <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.6/brython_stdlib.js"></script>
-    <title>Plindromes</title>
+    <title>Palindrome</title>
 </head>
 <body onload="brython();">
     <script type="text/python3" src="index.py"></script>
